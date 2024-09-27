@@ -2,7 +2,7 @@
 // Crea una variabile chiamata name e assegnale il tuo nome.
 // Stampa il valore di nome nella console.
 
-first_name = 'Diana';
+let first_name = 'Diana';
 console.log(first_name);
 
 // 2. Tipi primitivi
@@ -10,13 +10,13 @@ console.log(first_name);
 // un numero, una stringa e un valore booleano.
 // Stampa tutti i valori nella console.
 
-number = 6;
+let number = 6;
 console.log(number);
 
-text = 'Stringa';
+let text = 'Stringa';
 console.log(text);
 
-bool = true|false;
+let bool = true|false;
 console.log(bool);
 
 // 3. Sostituisci null nelle righe sottostanti utilizzando operazioni con le stringhe
@@ -26,10 +26,10 @@ const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; // NON MODIFICARE QUESTA RIGA
 const firstName = 'Jane'; // NON MODIFICARE QUESTA RIGA
 const lastName = 'Smith'; // NON MODIFICARE QUESTA RIGA
 
-const fullName = 'firstName' + ' ' + 'lastName';
+const fullName = firstName + ' ' + lastName;
 console.log(fullName); // Output: "Jane Smith"
 
 // 4. Imposta questa variabile utilizzando una proprietà
 // sulla variabile alphabet per ottenere la sua lunghezza
-const numberOfLettersInAlphabet = null;
-console.log(numberOfLettersInAlphabet); // Output: 26
+const numberOfLettersInAlphabet = alphabet;
+console.log(numberOfLettersInAlphabet.length); // Output: 26
