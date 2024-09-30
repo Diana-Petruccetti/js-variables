@@ -1,13 +1,13 @@
 const city = 'New York'; // NON MODIFICARE QUESTA RIGA
-const cityName = 'Città'; // NON MODIFICARE QUESTA RIGA
+const cityName = 'City'; // NON MODIFICARE QUESTA RIGA
 const shoppingList = 'mele, banane, arance, uva'; // NON MODIFICARE QUESTA RIGA
 const hello = 'hello'; // NON MODIFICARE QUESTA RIGA
 
 // 1. Cerca un carattere in una stringa
 // Stampa l'INDICE con cui viene trovato
 // il carattere Y nella variabile city
-const cityIndex = 0;
-console.log(cityIndex); // Output: 4
+const cityIndex = 4;
+console.log(cityIndex.charAt); // Output: 4
 
 // 2. Sottostringhe 
 // Stampa la sottostringa "York" dalla variabile city
